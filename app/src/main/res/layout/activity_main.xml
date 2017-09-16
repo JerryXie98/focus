@@ -22,7 +22,10 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:textSize="50px"
             android:id="@+id/tv"
             />
+
+
     </LinearLayout>
 </ScrollView>
