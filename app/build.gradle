@@ -1,3 +1,15 @@
+// https://stackoverflow.com/questions/24795079/error1-0-plugin-with-id-com-android-application-not-found
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:2.3.3"
+    }
+}
+
 apply plugin: 'com.android.application'
 
 android {
